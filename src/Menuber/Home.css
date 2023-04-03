@@ -1,0 +1,71 @@
+.h-intro{
+    display:flex;
+    height:100%;
+    padding:6rem 2rem;
+    background:rgb(249, 246, 246);
+    overflow:hidden;
+    box-sizing:border-box;
+    justify-content:center;
+    align-items:center;
+}
+.h-left{
+    display:flex;
+    position:relative;
+    flex:1;
+    flex-direction:column;
+}
+.i-button{
+    width:6rem;
+    height:3rem;
+    margin-top:10px;
+}
+.left-name{
+    display:flex;
+    flex-direction:column;
+}
+.left-name>:nth-child(1){
+    color:#020304;
+    font-weight:bold;
+    font-size:2rem;
+}
+.left-name>:nth-child(2){
+    font-size:4rem;
+    font-weight:bold;
+}
+.left-name>:nth-child(3){
+    font-weight:100;
+    font-size:14px;
+    color:black;
+    margin-top:10px;
+    text-align:left;
+    letter-spacing:2px; 
+}
+
+.h-right{
+  flex:1;
+  display:flex;
+}
+.right-person{
+    display:flex;
+    margin:0 4rem;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+}
+.r-one{
+   display:flex;
+   flex-direction:column;
+}
+.r-one h3{
+    font-size:1.8rem;
+    font-weight:bold;
+    color:rgb(17, 10, 4)
+}
+.r-one p{
+    font-size:14px;
+    font-weight:200;
+    letter-spacing:2px;
+    color:black;
+    margin-top:10px;
+}

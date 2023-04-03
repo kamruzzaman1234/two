@@ -1,0 +1,116 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 15px 120px;
+    border-bottom:0.5px solid #f1f1f1;
+}
+.header h4{
+    font-size:20px;
+    font-weight:bold;
+}
+.header h4 span{
+    color:green;
+    font-size:20px;
+    font-weight:bold;
+}
+.header span{
+    font-size:10px;
+    font-weight:200;
+
+}
+.header a{
+    padding:7px 30px;
+    background:green;
+    border-radius:7px;
+    color:white;
+    font-size:14px;
+    font-weight:500;
+}
+.btn{
+    background:green;
+    padding:10px 30px;
+    outline:none;
+    border:none;
+    border-radius:7px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    display:block;
+    width:60%;
+    margin:10px;
+
+}
+.btn-area{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/*==========WELCOME SECTION AREA DESIGN==============*/
+
+.welcome{
+    
+    padding:40px 300px;
+    text-align:center;
+}
+.welcome h3{
+    font-size:24px;
+    font-weight:300;
+}
+.rules h3{
+    font-size:22px;
+    font-weight:300;
+    margin-top:40px;
+}
+.rules span{
+    font-size:12px;
+    color:crimson;
+    margin-top:5px;
+    font-style:italic;
+}
+/*============STEP AREA START==========*/
+.step{
+    display:flex;
+    padding:10px 250px;
+    flex-direction:column;
+}
+.step a{
+    color:black;
+    background:bisque;
+    font-size:15px;
+    font-weight:400;
+    padding:0 10px;
+    border-radius:4px;
+}
+.serial{
+    margin:7px;
+}
+.serial span{
+    font-size:14px;
+}
+/*==========QUESTION AREA DESING==========*/
+.question{
+    padding:35px 120px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.question-head p{
+    font-size:14px;
+    font-weight:200;
+
+}
+.question-head p span{
+    color:crimson;
+}
+.question-head span{
+    font-size:14px;
+    font-weight:200;
+}
+.timmer{
+    text-align:right;
+}
+.timmer .span{
+    font-size:30px;
+    margin:5px;
+}
